@@ -1,0 +1,14 @@
+{
+  "name": "degoog-rain",
+  "description": "Rain palettes (Catppuccin, Tokyo Night, Rosé Pine, Kanagawa, Gruvbox and more) for degoog.",
+  "author": "rain-themes",
+  "repo-image": "logo.png",
+  "themes": [
+    {
+      "path": "themes/rain",
+      "name": "Rain",
+      "description": "21 palettes from rain-themes in one theme: pick one under Configure. 15 follow degoog's light mode with their official light flavour.",
+      "version": "1.0.0+020a638"
+    }
+  ]
+}

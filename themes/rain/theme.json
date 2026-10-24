@@ -1,0 +1,64 @@
+{
+  "name": "Rain",
+  "author": "rain-themes",
+  "description": "21 palettes from rain-themes in one theme: pick one under Configure. 15 follow degoog's light mode with their official light flavour.",
+  "css": "style.css",
+  "settingsSchema": [
+    {
+      "key": "palette",
+      "label": "Palette",
+      "type": "select",
+      "options": [
+        "catppuccin-frappe",
+        "catppuccin-macchiato",
+        "catppuccin-mocha",
+        "dracula",
+        "everforest-dark",
+        "gruvbox",
+        "gruvbox-material-dark",
+        "kanagawa-dragon",
+        "kanagawa-wave",
+        "librekai",
+        "librekai-dimmed",
+        "librekai-refined",
+        "nord-frost",
+        "nord-polar-night",
+        "rose-pine",
+        "rose-pine-moon",
+        "solarized-osaka",
+        "tokyodark",
+        "tokyonight-moon",
+        "tokyonight-night",
+        "tokyonight-storm"
+      ],
+      "optionLabels": [
+        "Catppuccin Frappé (+ light)",
+        "Catppuccin Macchiato (+ light)",
+        "Catppuccin Mocha (+ light)",
+        "Dracula (+ light)",
+        "Everforest Dark (+ light)",
+        "Gruvbox (+ light)",
+        "Gruvbox Material Dark (+ light)",
+        "Kanagawa Dragon (+ light)",
+        "Kanagawa Wave (+ light)",
+        "Librekai",
+        "Librekai Dimmed",
+        "Librekai Refined",
+        "Nord Frost",
+        "Nord Polar Night",
+        "Rosé Pine (+ light)",
+        "Rosé Pine Moon (+ light)",
+        "Solarized Osaka (+ light)",
+        "Tokyo Dark",
+        "Tokyo Night Moon (+ light)",
+        "Tokyo Night Night (+ light)",
+        "Tokyo Night Storm (+ light)"
+      ],
+      "description": "The light flavour is used when degoog is in light mode. Palettes without one stay dark."
+    }
+  ],
+  "dataAttrsFromSettings": {
+    "palette": "rain-palette"
+  },
+  "version": "1.0.0+020a638"
+}
